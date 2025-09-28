@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="bootstrap.css">
+
+ 
+    <script src="js/jquery-3.7.1.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url("image/hero-bg.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .container {
+            margin: 0 auto;
+            width: 80%;
+        }
+
+        section {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.00);
+            padding: 30px;
+            border-radius: 15px;
+            color: white;
+            max-width: 500px;
+          
+        }
+
+        .navbar-brand {
+            font-family: 'Great Vibes', cursive;
+            font-size: 28px;
+        }
+
+        .card h1 {
+            font-family: 'Cursive', cursive;
+            font-size: 2.5rem;
+            font-weight: 400;
+            color: #ffffff;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #ffffff;
+            font-size: 0.7rem;
+            line-height: 1.6;
+        }
+
+
+
+        .navbar-nav .nav-link {
+            color: #ffffff !important;
+            font-weight: 400;
+            margin: 0 5px;
+        }
+
+        .btn-warning {
+            background-color: #f1c40f;
+            border: none;
+            color: #ffffff;
+        }
+
+        .btn-warning.rounded-pill {
+            padding: 6px 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .card .btn-warning {
+            background-color: #f1c40f;
+            border: none;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 0.9rem;
+            padding: 6px 20px;         
+            border-radius: 50px;       /* viên thuốc */
+            display: inline-block;
+            width: auto;               /* không kéo dài */
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .card .btn-warning:hover {
+            background-color: #d4ac0d; /* vàng đậm khi hover */
+            color: #ffffff;
+        }
+
+        .nav-icons i {
+            color: white;
+            font-size: 1.2rem;
+            margin: 0 8px;
+            cursor: pointer;
+        }
+        .navbar-nav .nav-link:hover,
+        .navbar-nav .nav-link.active {
+        color: #f1c40f !important;
+        }
+            .navbar-icons i:hover {
+            color: #f1c40f;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand" href="#">Feane</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="home.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="book.html">BOOK TABLE</a>
+                    </li>
+
+                    <li class="nav-item nav-icons d-flex align-items-center">
+                        <i class="fa-solid fa-user"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </li>
+
+                    <li class="nav-item ms-3">
+                        <a class="nav-link" href="order.html">Order Online</a>
+                        
+                        </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section>
+            <div class="card">
+                <h1>Fast Food Restaurant</h1>
+                <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam
+                    quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil
+                    ducimus libero ipsam.</p>
+                <a href="#" class="btn btn-warning rounded-pill">Order Now</a>
+
+
+                <div class="mt-3">
+                    <span style="color:#f1c40f; font-size: 1.5rem;">●</span>
+                    <span style="color:#ffffff; font-size: 1.5rem;">●</span>
+                    <span style="color:#ffffff; font-size: 2.0rem;">●</span>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
